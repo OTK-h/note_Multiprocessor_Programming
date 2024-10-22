@@ -1,9 +1,11 @@
 # 2.1 Time
-a<sub>i</sub> A线程第i个任务  
-a<sub>0</sub> → a<sub>1</sub> 第0个任务在第1个任务之前  
-I<sub>A</sub> = (a<sub>i</sub>, a<sub>j</sub>) 第i个任务到第j个任务的时期  
-I<sub>A</sub> → I<sub>B</sub> I<sub>A</sub>最后一个任务在I<sub>B</sub>第一个任务之前  
-a^j^ 总过程第j个任务/时期
+|||
+|:---:|:---:|
+|a<sub>i</sub>|A线程第i个任务|
+|a<sup>j</sup>|总过程第j个任务/时期|
+|I<sub>A</sub> = (a<sub>i</sub>, a<sub>j</sub>)|第i个任务到第j个任务的时期|
+|I<sub>A</sub> → I<sub>B</sub>|I<sub>A</sub>最后一个任务在I<sub>B</sub>第一个任务之前|
+|a<sub>0</sub> → a<sub>1</sub>|第0个任务在第1个任务之前|
 # 2.2 Critical Sections(CS)
 1. 每个特殊部分和unique Lock交流  
 2. 线程尝试进入特殊部分，上锁  
